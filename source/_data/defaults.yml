@@ -1,0 +1,200 @@
+
+#####################
+# Conference defaults
+#####################
+
+# conference config
+conference:
+  # Online-only conferences
+  is_online_only: false
+  online_location: "online"
+  online_location_title: "Internet"
+  online_location_info: "La conferenza si svolge da remoto"
+
+  # menu and general params
+  menu_buy_tickets_label: "Partecipa"
+  # additional info for microdata / schema.org
+  md_city: "Faenza"
+  md_province: "RA"
+  md_postal_code: "48018"
+  md_address: "Via Carlo Cesare Scaletta 10"
+  organizer_url: "https://grusp.org/"
+  # contact email
+  contact_email: "cssday@grusp.org"
+  # these are for the hero section
+  title_pre: ""
+  title: "cssday 2023"
+  city: "Faenza"
+  date: 2023-03-31T09:30+02:00
+  # Use the next field to override the date in the hero
+  hero_date_text:
+  countdown_visible: false
+  countdown_days: "giorni"
+  countdown_hours: "ore"
+  countdown_minutes: "minuti"
+  countdown_seconds: "secondi"
+  ticket_button_visible: true
+  hero_buy_tickets_label: "Assicurati un posto"
+  # image credits (l'esempio è per la hero del CSS Day!)
+  # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
+  # "update" component. set the first parameter to true to make it appear in home page, false means hidden
+  update_visible: false
+  update_is_warning: false
+  update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
+  update_title: "Aspettando cssday"
+  update_description: "4 appuntamenti live su YouTube, in collaborazione con FEVR, per presentare speaker e talk di questa edizione della conferenza: dal 4 Marzo ogni venerdì alle 19:30"
+  update_link_url: "https://www.youtube.com/playlist?list=PLWK9j6ps_unkouGhBgPbFL89_MFhT9GEN"
+  update_link_label: "Vai alla playlist su YouTube"
+  # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
+  cfp_open: false
+  cfp_readmore_label: "Continua a leggere"
+  cfp_open_label: "Proponi un talk entro il"
+  cfp_open_title: "La Call For Paper è aperta!"
+  cfp_deadline: 2023-01-08T23:59+01:00
+  cfp_register_label: "Proponi un talk"
+  cfp_register_aria_label: "Inviaci ora la tua proposta"
+  # "general information" ("what is it?") component
+  geninfo_visible: true
+  geninfo_title: "Che cos'è?"
+  geninfo_description: "cssday 2023 è la 9° edizione della conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.
+  </br> <br />Nata come track del <a href='https://www.jsday.it/'>jsday</a> e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.
+  </br> <br />cssday 2023 si svolge Venerdì 31 Marzo in modalità <b>ibrida</b>: di persona a Faenza e online."
+  # </br> <br />Oltre alla conferenza, quest'anno c'è un <a href='https://2022.cssday.it/workshop/tipografia_css.html'>workshop</a> dedicato alla Tipografia con i CSS, che si svolgerà <b>online</b> nei giorni 11, 12 e 13 Aprile 2022.
+  # </br> <br />E se ti interessano in particolare le tematiche relative alla User Experience, c'è una nuova conferenza per te: <a href='https://www.uxday.it/'>uxday</a> il 10 Giugno 2022 a Faenza!"
+
+  geninfo_about_label: "About"
+  geninfo_coc_label: "Codice di condotta"
+  geninfo_scholarships_label: "Scholarships"
+  geninfo_tickets_label: "Biglietti"
+  # this is for the Newsletter block
+  newsletter_title: "Ricevi gli aggiornamenti"
+  newsletter_subtitle: "Iscriviti alla nostra newsletter"
+  # fields taken from the Mail chimp default form -- set to `true` to add subscription
+  newsletter_lists:
+    php: false
+    javascript: false
+    design: true
+    devops: false
+    frontend: true
+    ruby: false
+    entrepreneurship: false
+    local_events: false
+    everything: false
+  newsletter_firstname_label: "Nome"
+  newsletter_lastname_label: "Cognome"
+  newsletter_email_label: "Email"
+  newsletter_subscribe_label: "Iscriviti"
+  newsletter_lang_challenge: "Parli italiano?"
+  newsletter_lang_label: "Of course, certamente!"
+  newsletter_privacy_label: "Ho letto ed accettato la "
+  newsletter_privacy_link_label: "privacy policy"
+  newsletter_disclaimer: "Usiamo Mailchimp come nostra piattaforma di marketing. Iscrivendoti alla newsletter, accessi che i tuoi dati siano trasferiti a Mailchimp per essere gestiti. "
+  newsletter_legal_url: "https://mailchimp.com/legal/"
+  newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
+  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
+  speakers_visible: true
+  speakers_title: "Speaker"
+  mcs_title: "MC"
+  speaker_count_text: Saliranno sul palco di cssday
+  # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
+  topics_visible: true
+  topics_title: "Argomenti e temi"
+  topics_description: "Parleremo di..."
+  topics:
+    - "CSS"
+    - "UX"
+    - "Accessibilità"
+    - "Testing"
+    - "Design"
+    - "Metodologie"
+  topics_payoff: "...e molto altro!"
+  # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
+  workshop_visible: true
+  workshops_title: "workshop"
+  workshops_tickets_label: "Acquista i biglietti"
+  workshops_readmore_label: "Continua a leggere"
+  workshops_register_label: "Registrati"
+  # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
+  media_visible: true
+  media_pic_1: "cssday2022_1.jpeg"
+  media_pic_2: "cssday2022_2.jpg"
+  media_pic_3: "cssday2022_3.jpg"
+  media_pic_4: "cssday2022_5.jpg"
+  #   playlist: if true, the iframe will be created. if false, it will not
+  media_video_playlist: true
+  # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
+  media_video_is_youtube: true
+  youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
+  # vimeo_base_url: "https://vimeo.com/channels/"
+  # vimeo_url_suffix: "/embed"
+  #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
+  youtube_playlist_id: "PLWK9j6ps_unlfKcZuJlbAMyuqn55WBP2-"
+  #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
+  # vimeo_showcase_id: "italiancssday"
+  # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
+  location_visible: true
+  location_name: "Cinema Teatro Sarti"
+  location_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
+  location_maps_url: "https://goo.gl/maps/ufGrGJ8BzCaNQYaf8"
+  location_maps_label: "Vai a google maps"
+  location_readmore_label: "Altre info"
+  # image credits (l'esempio è per la hero del CSS Day!)
+  venue_img_credits: ""
+  # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
+  sponsors_visible: true
+  sponsor_title_home: "Grazie al supporto di"
+  # this is for the Community partners section in home page
+  community_partners: true
+  community_partners_title: "Community partner"
+  # community_partners_text: ""
+  # this is for the Social links block
+  social_follow: "Seguici su"
+  social_fb_url: "https://www.facebook.com/cssday"
+  social_linkedin_url: "https://www.linkedin.com/company/grusp/"
+  social_twitter_url: "https://twitter.com/cssday_it"
+  social_vimeo_url: "https://vimeo.com/channels/italiancssday"
+  social_youtube_url: "https://www.youtube.com/c/grusp"
+  social_instagram_url: "https://www.instagram.com/grusp_/"
+  social_mastodon_url: "https://phpc.social/@grusp"
+
+  # 404
+  back_to_home_label: "back to home page"
+  # footer
+  #   this is for the "previous editions" links
+  base_url: "cssday.it/"
+  past_editions_pre: "Passate edizioni della conferenza:"
+  past_editions:
+    2015: "2015"
+    2016: "2016"
+    2017: "2017"
+    2018: "2018"
+    2019: "2019"
+    2020: "2020"
+    2021: "2021"
+    2022: "2022"
+  past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
+  past_editions_videos_vimeo_label: "Vimeo"
+  past_editions_videos_mid: " e "
+  past_editions_videos_youtube_label: "YouTube"
+  past_editions_videos_post: "."
+  footer_copy_text: "è &copy; del <a href='https://www.grusp.org'>GrUSP</a> e del suo fantastico team"
+  footer_contact_text: "Contattaci "
+  footer_links_pre: "Puoi leggere la nostra "
+  footer_links_privacy_link_label: "privacy policy"
+  iubenda:
+    # sostituire tutti questi parametri con quelli generati nel dashboard di iubenda.com cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c
+    cookiePolicyId: 96353686
+    siteId: 2105072
+    lang: it
+    enableRemoteConsent: true
+    localConsentDomain: cssday.it
+    rebuildIframe: true
+  privacy_policy_url_common: "https://www.iubenda.com/privacy-policy/"
+  footer_link_middle: " ed il nostro "
+  footer_coc_link_label: "codice di condotta"
+  # Google Tag Manager
+  google:
+    tag_manager_id: "GTM-NHGPCHT"
+  # Tito tickets
+  tito:
+    event: grusp/cssday-2024
