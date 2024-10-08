@@ -23,17 +23,17 @@ conference:
   contact_email: "cssday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "cssday 2023"
+  title: "cssday 2025 - #accessibilità"
   city: "Faenza"
-  date: 2023-03-31T09:30+02:00
+  date: 2025-03-28T09:30+02:00
   # Use the next field to override the date in the hero
-  hero_date_text:
-  countdown_visible: false
+  hero_date_text: 
+  countdown_visible: true
   countdown_days: "giorni"
   countdown_hours: "ore"
   countdown_minutes: "minuti"
   countdown_seconds: "secondi"
-  ticket_button_visible: true
+  ticket_button_visible: false
   hero_buy_tickets_label: "Assicurati un posto"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
@@ -46,19 +46,23 @@ conference:
   update_link_url: "https://www.youtube.com/playlist?list=PLWK9j6ps_unkouGhBgPbFL89_MFhT9GEN"
   update_link_label: "Vai alla playlist su YouTube"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "La Call For Paper è aperta!"
-  cfp_deadline: 2023-01-08T23:59+01:00
+  cfp_deadline: 2024-11-15T23:59+01:00
   cfp_register_label: "Proponi un talk"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "cssday 2023 è la 9° edizione della conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.
-  </br> <br />Nata come track del <a href='https://www.jsday.it/'>jsday</a> e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.
-  </br> <br />cssday 2023 si svolge Venerdì 31 Marzo in modalità <b>ibrida</b>: di persona a Faenza e online."
+  geninfo_description: "cssday 2025 è l'undicesima edizione della conferenza italiana dedicata ai CSS, lo strumento più potente e sottovalutato del rinascimento del web.<br>&nbsp;<br>
+    Il focus di questa edizione sarà sull'<b>accessibilità</b> e sull'introduzione dell'European Accessibility Act.<br>&nbsp;<br>
+    L'accessibilità è un principio fondamentale nel web design che mira a garantire che tutte le persone, indipendentemente dalle loro abilità, possano accedere ed interagire con i contenuti digitali in modo equo ed efficace.<br>&nbsp;<br>
+    La direttiva europea diventerà legge dal 28 giugno 2025: per quella data anche i siti web e le applicazioni delle aziende private dovranno rispettare alcuni requisiti di accessibilità.<br>&nbsp;<br>
+    Prepariamoci: c'è molto lavoro da fare!"
+  # </br> <br />Nata come track del <a href='https://www.jsday.it/'>jsday</a> e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.
+  # </br> <br />cssday 2023 si svolge Venerdì 31 Marzo in modalità <b>ibrida</b>: di persona a Faenza e online."
   # </br> <br />Oltre alla conferenza, quest'anno c'è un <a href='https://2022.cssday.it/workshop/tipografia_css.html'>workshop</a> dedicato alla Tipografia con i CSS, che si svolgerà <b>online</b> nei giorni 11, 12 e 13 Aprile 2022.
   # </br> <br />E se ti interessano in particolare le tematiche relative alla User Experience, c'è una nuova conferenza per te: <a href='https://www.uxday.it/'>uxday</a> il 10 Giugno 2022 a Faenza!"
 
@@ -92,7 +96,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "Speaker"
   mcs_title: "MC"
   speaker_count_text: Saliranno sul palco di cssday
@@ -107,19 +111,22 @@ conference:
     - "Testing"
     - "Design"
     - "Metodologie"
+    - "WCAG - Web Content Accessibility Guidelines"
+    - "Responsive Design"
+    - "Tipografia accessibile"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
   media_visible: true
-  media_pic_1: "cssday2022_1.jpeg"
-  media_pic_2: "cssday2022_2.jpg"
+  media_pic_1: "cssday_2023_web1.jpg"
+  media_pic_2: "cssday_2023_web2.jpg"
   media_pic_3: "cssday2022_3.jpg"
-  media_pic_4: "cssday2022_5.jpg"
+  media_pic_4: "cssday2022_2.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -128,7 +135,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unlfKcZuJlbAMyuqn55WBP2-"
+  youtube_playlist_id: "PLWK9j6ps_unmdZSIm1lJOafQdNili3MMV"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancssday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -141,10 +148,10 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Grazie al supporto di"
   # this is for the Community partners section in home page
-  community_partners: true
+  community_partners: false
   community_partners_title: "Community partner"
   # community_partners_text: ""
   # this is for the Social links block
@@ -172,6 +179,8 @@ conference:
     2020: "2020"
     2021: "2021"
     2022: "2022"
+    2023: "2023"
+    2024: "2024"
   past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " e "
@@ -197,4 +206,4 @@ conference:
     tag_manager_id: "GTM-NHGPCHT"
   # Tito tickets
   tito:
-    event: grusp/cssday-2024
+    event: grusp/cssday-2025

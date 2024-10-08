@@ -1,7 +1,9 @@
 intro:
   main_title: "Welcome"
   content_1: "I CSS sono uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web. Nato come track del jsday e dallo stesso team organizzativo di Kerning, il cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere."
-  content_2: "L'obiettivo dell'evento è consentire alla community di incontrarsi e condividere esperienze divertendosi e facendo rete in un contesto piacevole."
+  content_2: "L'obiettivo dell'evento è consentire alla community di incontrarsi e condividere esperienze divertendosi e facendo rete in un contesto piacevole.<br>&nbsp;<br>Il focus di questa edizione sarà sull'<b>accessibilità</b> e sull'introduzione dell'European Accessibility Act.<br>&nbsp;<br>
+    L'accessibilità è un principio fondamentale nel web design che mira a garantire che tutte le persone, indipendentemente dalle loro abilità, possano accedere ed interagire con i contenuti digitali in modo equo ed efficace.<br>&nbsp;<br>
+    La direttiva europea diventerà legge dal 28 giugno 2025: per quella data anche i siti web e le applicazioni delle aziende private dovranno rispettare alcuni requisiti di accessibilità."
 # this is the global "read more" label
 readmore_label: "Leggi tutto"
 # these are the title and descriptions of the 6 blocks
