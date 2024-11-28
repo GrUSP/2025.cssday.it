@@ -46,7 +46,7 @@ conference:
   update_link_url: "https://www.youtube.com/playlist?list=PLWK9j6ps_unkouGhBgPbFL89_MFhT9GEN"
   update_link_label: "Vai alla playlist su YouTube"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "La Call For Paper è aperta!"
