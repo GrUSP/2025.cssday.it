@@ -12,7 +12,7 @@ conference:
   online_location_info: "La conferenza si svolge da remoto"
 
   # menu and general params
-  menu_buy_tickets_label: "Biglietti!"
+  menu_buy_tickets_label: "Acquista il biglietto"
   # additional info for microdata / schema.org
   md_city: "Faenza"
   md_province: "RA"
