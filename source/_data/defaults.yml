@@ -27,7 +27,7 @@ conference:
   city: "Faenza"
   date: 2025-03-28T09:30+02:00
   # Use the next field to override the date in the hero
-  hero_date_text: 
+  hero_date_text:
   countdown_visible: true
   countdown_days: "giorni"
   countdown_hours: "ore"
@@ -101,7 +101,7 @@ conference:
   mcs_title: "MC"
   speaker_count_text: Saliranno sul palco di cssday
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
-  topics_visible: true
+  topics_visible: false
   topics_title: "Argomenti e temi"
   topics_description: "Parleremo di..."
   topics:
@@ -135,7 +135,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unlsGtDFKsyY6AG__uMRsG8j"
+  youtube_playlist_id: "PLWK9j6ps_unk6sqhJVfTpadc7ZSZIMTwe&si=B3dqwajXlUdiUbwj"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancssday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
