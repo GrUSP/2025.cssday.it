@@ -1,24 +1,96 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
+speaker_1: &dianabernabei
+  speaker_in_speaker_lists: true
+  speaker_name: Diana Bernabei
+  speaker_pic_filename: diana-bernabei.png
+  speaker_role: "Accessibility Engineer @ Inclusio"
+  speaker_bio: "Sono una Frontend Developer freelance specializzata in consulenza sull'accessibilità, design UI/UX e sviluppo web.
+Il mio obiettivo è garantire che ogni sito web sia accessibile a tutti, indipendentemente dalle capacità fisiche o cognitive.
+Da oltre 5 anni, mi dedico con passione e professionalità a questo obiettivo, lavorando con semplicità e attenzione al dettaglio.
+Per me, l'accessibilità web va oltre la tecnologia: rappresenta una questione di diritti, uguaglianza e libertà."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/dianabernabei/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_2: &claudiocaciagli
+  speaker_in_speaker_lists: true
+  speaker_name: Claudio Caciagli
+  speaker_pic_filename: claudio-caciagli.png
+  speaker_role: "CEO @ AltaSartoria"
+  speaker_bio: "Socio fondatore della web agency AltaSartoria, professore di Design multimediale allo IAAD e co-organizzatore di Bologna Front End."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/altasartoria/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_3: &giulialaco
+  speaker_in_speaker_lists: true
+  speaker_name: Giulia Laco
+  speaker_pic_filename: giulia-laco.png
+  speaker_role: "Web designer/developer, consulente e formatrice"
+  speaker_bio: "Attratta dall’invenzione del Web fin dai suoi esordi, sono stata webmaster in azienda nell’altro secolo e web designer/developer in questo, attraversando nel tempo le numerose discipline che sono nate attorno all’ottimizzazione dei siti web per la buona riuscita dei progetti. Adoro gli standard Web, l’evoluzione dei CSS, il web semantico, la SEO, i web font, le sfide dell’accessibilità. Curo progetti per aziende, agenzie ed e-commerce. Sono consulente, coacher e formatrice in corsi specializzati, talvolta divulgatrice in eventi. Amo da sempre le intersezioni tra discipline. Amo alternare la teoria e la pratica."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/giulialaco/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_4: &stefanominoia
+  speaker_in_speaker_lists: true
+  speaker_name: Stefano Minoia
+  speaker_pic_filename: stefano-minoia.png
+  speaker_role: "Accessibility Specialist & Front End Developer @ DigiVisionTech"
+  speaker_bio: "Specialista di accessibilità digitale e sviluppatore front end e WordPress, fornisco consulenze sull’accessibilità di siti web, applicazioni e servizi digitali, senza paura di mettere le mani sul codice. Attraverso le community, amo condividere quello che scopro con le persone con cui entro in contatto. Nel tempo libero, oltre a sfinire le persone che mi conoscono parlando di accessibilità, canto in diversi cori, gioco a scacchi e mi diverto con le tecniche di memorizzazione."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/stefano-minoia/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_5: &davidedipumpo
+  speaker_in_speaker_lists: true
+  speaker_name: Davide Di Pumpo
+  speaker_pic_filename: davide-dipumpo.png
+  speaker_role: "MASTER OF CEREMONIES"
   speaker_bio: ""
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
   speaker_linkedin_url: ""
   speaker_mastodon_url: ""
-  is_mc: false
+  is_mc: true
+
+# speaker_6: &speaker
+#   speaker_in_speaker_lists: true
+#   speaker_name:
+#   speaker_pic_filename: .jpg
+#   speaker_role: ""
+#   speaker_bio: ""
+#   speaker_github_url: ""
+#   speaker_twitter_url: ""
+#   speaker_instagram_url: ""
+#   speaker_linkedin_url: ""
+#   speaker_mastodon_url: ""
+#   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *dianabernabei
+  speaker_2: *claudiocaciagli
+  speaker_3: *giulialaco
+  speaker_4: *stefanominoia
+  speaker_5: *davidedipumpo
 
 tracks:
   track_1: &track_1
@@ -64,23 +136,50 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      ritorno-al-futuro:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "LA GRANDE OPPORTUNITÀ - parte 1: ritorno al futuro"
+        talk_description: "Il Web è nato come spazio universale, accessibile e resiliente, grazie a tecnologie come HTML e HTTP che hanno rivoluzionato il modo in cui organizziamo, pubblichiamo e interagiamo con l'informazione. Oggi, con la spinta dello European Accessibility Act (EAA), l’accessibilità non è più un'opzione: è il requisito fondamentale per costruire siti e app migliori.  Ma attenzione: non si tratta solo di rispettare delle scarne linee guida (le WCAG sono al contrario un compendio poderoso di tre decenni di buone pratiche) ed è l’occasione per ripensare il design, integrando HTML semantico, CSS, WAI-ARIA, UX consapevole e SEO in un’esperienza inclusiva e ad alte prestazioni. La grande bellezza del web design risiede qui: progettare per il futuro, per tutte le persone, trasformando obblighi in opportunità."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *giulialaco
+
+      obbligo-o-collaborazione:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "LA GRANDE OPPORTUNITÀ - parte 2: obbligo o collaborazione?"
+        talk_description: "Il quadro normativo attuale sull’accessibilità digitale ci obbliga a ripensare radicalmente il modo in cui progettiamo e sviluppiamo. L'accessibilità anziché semplice vincolo tecnico può diventare un potente motore di cambiamento: un catalizzatore per migliorare la comunicazione tra team e ottimizzare i processi di sviluppo. Attraverso questa lente, scopriremo come l'accessibilità stia plasmando il futuro del web non solo come framework tecnico, ma come visione rivoluzionaria che eleva la qualità dei prodotti digitali verso un obiettivo comune: un web veramente per chiunque."
+        talk_video_url:
+        speakers:
+          speaker_1: *dianabernabei
+
+      come-animare-accessibilita:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Come animare l’accessibilità"
+        talk_description: "Ma davvero i siti con animazioni non possono essere accessibili? Se Flash fosse stato accessibile, sarebbe ancora tra noi? Le animazioni per il web sono un lusso o una necessità?
+        Nel talk proveremo a rispondere a queste annose domande per scoprire se è possibile animare l'accessibilità."
+        talk_video_url:
+        speakers:
+          speaker_1: *claudiocaciagli
+
+      tra-accessibilità-e-stile-semantica-e-architettura-CSS:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Tra accessibilità e stile: semantica e architettura CSS"
+        talk_description: "Ogni dev si è trovato/a, almeno una volta, a lottare con file CSS difficili da leggere e mantenere. È una sfida che può emergere in qualsiasi progetto, indipendentemente dalla sua scala o dallo stack utilizzato, e spesso si ritiene che sia una conseguenza inevitabile della cascata.
+        Ma è davvero così? Come possiamo evitare di 'annegare' nel nostro codice?
+        Nel tempo, sono stati pensati diversi modelli di architettura CSS per organizzare i fogli di stile, migliorandone la manutenzione e riducendo il tempo necessario per trovare e modificare le regole.
+        In questa presentazione, esploreremo alcuni di questi modelli e vedremo come applicarli al meglio partendo da alcuni concetti di base dell'accessibilità digitale, primo fra tutti la semantica. Scopriremo così che l'accessibilità non solo migliora l'esperienza utente per le persone con disabilità, ma anche la Developer Experience, dando dei principi per organizzare il codice e semplificare il lavoro di chi sviluppa."
+        talk_video_url:
+        speakers:
+          speaker_1: *stefanominoia
