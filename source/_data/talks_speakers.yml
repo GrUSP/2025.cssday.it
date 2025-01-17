@@ -59,11 +59,24 @@ speaker_4: &stefanominoia
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_5: &davidedipumpo
+speaker_5: &massimoartizzu
+  speaker_in_speaker_lists: true
+  speaker_name: Massimo Artizzu
+  speaker_pic_filename: massimo-artizzu.png
+  speaker_role: "Web Architect @ GELLIFY"
+  speaker_bio: "CSS Zen Garden mi colpì sulla via di Damasco ai tempi di quando stavo imparando a sviluppare per il web. Da allora, il CSS ha fatto passi da gigante, ma cercare di capirne la potenza è sempre stato un mio pallino."
+  speaker_github_url: "https://github.com/MaxArt2501"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/massimoartizzu/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_6: &davidedipumpo
   speaker_in_speaker_lists: true
   speaker_name: Davide Di Pumpo
   speaker_pic_filename: davide-dipumpo.png
-  speaker_role: "MASTER OF CEREMONIES"
+  speaker_role: "MASTER OF CEREMONIES | UX Engineer"
   speaker_bio: ""
   speaker_github_url: ""
   speaker_twitter_url: ""
@@ -86,11 +99,12 @@ speaker_5: &davidedipumpo
 #   is_mc: false
 
 speakers:
-  speaker_1: *dianabernabei
-  speaker_2: *claudiocaciagli
-  speaker_3: *giulialaco
-  speaker_4: *stefanominoia
-  speaker_5: *davidedipumpo
+  speaker_1: *massimoartizzu
+  speaker_2: *dianabernabei
+  speaker_3: *claudiocaciagli
+  speaker_4: *giulialaco
+  speaker_5: *stefanominoia
+  speaker_6: *davidedipumpo
 
 tracks:
   track_1: &track_1
@@ -157,6 +171,18 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *dianabernabei
+
+      i-nostri-mezzi-sono-accessibili:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "I nostri mezzi sono accessibili?"
+        talk_description: "Da web developer siamo sempre davanti ad uno schermo. Abbiamo pressoché sempre lavorato per uno schermo. Uno schermo grande e largo. Poi sono arrivati i cellulari, e gli schermi sono diventati piccoli. Ma ci siamo adattati. I nostri stili sono tornati accessibili. Quindi siamo a posto?
+        Forse no. Ci possono essere tanti altri tipi di 'media' che stiamo sottovalutando, e che potrebbero fruire dei nostri contenuti. Ma non possono. E quello che abbiamo fatto per uno schermo potrebbe essere non solo poco utile, ma persino deleterio per un altro mezzo. A cosa dovremmo quindi prestare attenzione per avere pagine davvero accessibili su ogni piattaforma?"
+        talk_video_url:
+        speakers:
+          speaker_1: *massimoartizzu
 
       come-animare-accessibilita:
         item_type: "talk"
