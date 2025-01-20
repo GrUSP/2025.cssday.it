@@ -85,7 +85,20 @@ speaker_6: &enricogiacomazzi
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_7: &davidedipumpo
+speaker_7: &michelelandolfo
+  speaker_in_speaker_lists: true
+  speaker_name: Michele Landolfo
+  speaker_pic_filename: michele-landolfo.png
+  speaker_role: "Esperto di Accessibilità @ Accessibility Days"
+  speaker_bio: "Esperto di accessibilità web e mobile, consulente in ipovisione e cecità, formatore in tecnologie assistive. Membro del board degli Accessibility Days, dev per passione. Il mio obiettivo: un mondo digitale inclusivo per tutti e tutte."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/michele-landolfo/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_8: &davidedipumpo
   speaker_in_speaker_lists: true
   speaker_name: Davide Di Pumpo
   speaker_pic_filename: davide-dipumpo.png
@@ -117,8 +130,9 @@ speakers:
   speaker_3: *claudiocaciagli
   speaker_4: *enricogiacomazzi
   speaker_5: *giulialaco
-  speaker_6: *stefanominoia
-  speaker_7: *davidedipumpo
+  speaker_6: *michelelandolfo
+  speaker_7: *stefanominoia
+  speaker_8: *davidedipumpo
 
 tracks:
   track_1: &track_1
@@ -221,6 +235,16 @@ days:
         speakers:
           speaker_1: *enricogiacomazzi
 
+      le-tecnologie-assistive-come-strumento-per-le-verifiche-di-accessibilita:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Le tecnologie assistive come strumento per le verifiche di accessibilità"
+        talk_description: "In un mondo sempre più digitale, l'accessibilità non è solo un obbligo normativo,  ma una responsabilità etica e un’opportunità strategica per creare esperienze più inclusive. Questo speech esplora l'importanza di verificare l'accessibilità di prodotti e interfacce utilizzando tecnologie assistive, con un focus particolare sui lettori di schermo. Attraverso casi pratici e best practice, analizzeremo come testare e ottimizzare la fruibilità dei contenuti per le persone con disabilità, evidenziando i vantaggi di progettare in modo inclusivo fin dalle prime fasi di sviluppo. Scopriremo come l'integrazione di strumenti di verifica dell'accessibilità possa migliorare non solo l’esperienza utente ma anche il valore e l’impatto del prodotto nel mercato globale. Includere è innovare."
+        talk_video_url:
+        speakers:
+          speaker_1: *michelelandolfo
 
       tra-accessibilità-e-stile-semantica-e-architettura-CSS:
         item_type: "talk"
