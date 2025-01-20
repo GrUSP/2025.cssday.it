@@ -72,7 +72,20 @@ speaker_5: &massimoartizzu
   speaker_mastodon_url: ""
   is_mc: false
 
-speaker_6: &davidedipumpo
+speaker_6: &enricogiacomazzi
+  speaker_in_speaker_lists: true
+  speaker_name: Enrico Giacomazzi
+  speaker_pic_filename: enrico-giacomazzi.png
+  speaker_role: "Freelance fullstack developer"
+  speaker_bio: "Consulente full stack freelance, formatore aziendale, docente ITS, golfista e sommozzatore"
+  speaker_github_url: "https://github.com/enricogiacomazzi"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/giacomazzienrico"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_7: &davidedipumpo
   speaker_in_speaker_lists: true
   speaker_name: Davide Di Pumpo
   speaker_pic_filename: davide-dipumpo.png
@@ -102,9 +115,10 @@ speakers:
   speaker_1: *massimoartizzu
   speaker_2: *dianabernabei
   speaker_3: *claudiocaciagli
-  speaker_4: *giulialaco
-  speaker_5: *stefanominoia
-  speaker_6: *davidedipumpo
+  speaker_4: *enricogiacomazzi
+  speaker_5: *giulialaco
+  speaker_6: *stefanominoia
+  speaker_7: *davidedipumpo
 
 tracks:
   track_1: &track_1
@@ -195,6 +209,18 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *claudiocaciagli
+
+      il-mondo-non-e-bianco-e-nero-ma-RGB:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Il Mondo non è bianco e nero, ma RGB"
+        talk_description: "Abbiamo l'abitudine di trattare i colori nei nostri siti e applicativi, ma perchè li definiamo tramite una terna di valori rosso-verde-blu? Cosa sono HSL e HSV? Perchè dovremmo usarli? E tutto questo come influenza l'accessibilità di un sito web ad esempio? In questo talk cercherò di dare una definizione (più o meno) formale alla teoria del colore ed alla sua applicazione per rendere al meglio la fruibilità dei nostri siti/app."
+        talk_video_url:
+        speakers:
+          speaker_1: *enricogiacomazzi
+
 
       tra-accessibilità-e-stile-semantica-e-architettura-CSS:
         item_type: "talk"

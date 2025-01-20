@@ -10,12 +10,12 @@ menu:
   # scommentare per generare pagina
   # schedule: programma
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
-   font_variabili: Tipografia web e font variabili
+   design-system: "The science of a button: Introduzione ai design system"
 #   workshop_2: sample second workshop
 
 # welcome submenu

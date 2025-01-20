@@ -116,7 +116,7 @@ conference:
     - "Tipografia accessibile"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
