@@ -111,6 +111,23 @@ speaker_8: &davidedipumpo
   speaker_mastodon_url: ""
   is_mc: true
 
+speaker_9: &emilianopisu
+  speaker_in_speaker_lists: true
+  speaker_name: Emiliano Pisu
+  speaker_pic_filename: emiliano-pisu.png
+  speaker_role: "Co-Host & Mentor @ DevDojo"
+  speaker_bio: "Sviluppatore dal 1997, con 15 anni di backend alle spalle finché non si innamora HTML, CSS e JS nel 2004, e gradualmente abbandona il Backend in favore del Frontend.
+Dal 2014 si specializza nella creazione di UI/UX e nell'implementazione di Design Systems, lavorando presso diverse aziende fino ad approdare come Team Leader in MONK Software.
+Attualmente verticalizzato sulla realizzazione di Design Systems accessibili e studia per la certificazione di Accessibility Expert WCAG.
+Dal 2019 appassionato e sensibilizzato sulla tematica principale del cssday 2025 grazie agli Accessibility Days che segue ogni anno da quella data."
+  speaker_github_url: "https://github.com/pixu19890"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://linkedin.com/in/pixu1980"
+  speaker_mastodon_url: ""
+
+
+
 # speaker_6: &speaker
 #   speaker_in_speaker_lists: true
 #   speaker_name:
@@ -132,7 +149,9 @@ speakers:
   speaker_5: *giulialaco
   speaker_6: *michelelandolfo
   speaker_7: *stefanominoia
+  speaker_9: *emilianopisu
   speaker_8: *davidedipumpo
+
 
 tracks:
   track_1: &track_1
@@ -259,3 +278,14 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *stefanominoia
+
+      costruire-un-Design-System-Accessibile:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Costruire un Design System Accessibile con l'approccio CSS APIs"
+        talk_description: "Un design system è fondamentale per garantire coerenza, scalabilità e accessibilità nei prodotti digitali. Ma come si costruisce uno da zero, assicurando flessibilità e manutenibilità? CSS Custom Properties e CSS Layers offrono una combinazione potente per definire una base strutturata e gestibile, esponendo CSS API chiare per override esterni. In questo talk esploreremo, grazie ad un'implementazione di esempio, come ottenere il massimo da un design system e il suo ruolo nella creazione di un'identità visiva. Parleremo di fondamenti come token di design, principi di atomic design e accessibilità, includendo tipografia, spaziature, palette colori, motion guidelines e strategie per dark mode, e accent themes. Inoltre parleremo di test per garantire l'integriità del design, come visual regression testing e pixel diffing."
+        talk_video_url:
+        speakers:
+          speaker_1: *emilianopisu
