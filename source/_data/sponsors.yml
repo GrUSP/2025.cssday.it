@@ -15,7 +15,11 @@ sponsors_block_title: "Grazie ai nostri sponsor!"
 #     logo_filename: ""
 #     site_url: ""
 gold:
-  sponsor0:
+  sponsor1:
+    name: "Accessiway"
+    logo_filename: "accessiway.svg"
+    site_url: "https://www.accessiway.com"
+  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
