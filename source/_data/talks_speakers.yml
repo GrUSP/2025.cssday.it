@@ -126,7 +126,17 @@ Dal 2019 appassionato e sensibilizzato sulla tematica principale del cssday 2025
   speaker_linkedin_url: "https://linkedin.com/in/pixu1980"
   speaker_mastodon_url: ""
 
-
+speaker_10: &valeriasalis
+  speaker_in_speaker_lists: true
+  speaker_name: Valeria Salis
+  speaker_pic_filename: valeria-salis.png
+  speaker_role: "Software Developer"
+  speaker_bio: "Valeria è una Software Developer dal background ibrido e decisamente troppi interessi con un'unica costante: la tecnologia la accompagna da sempre. Backendista di nascita e frontendista d'adozione. Una particolare sensibilità la porta ad appassionarsi a tematiche come l'accessibilità e la sostenibilità ambientale del mondo tech."
+  speaker_github_url: "https://github.com/vallss"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://linkedin.com/in//valeria-salis"
+  speaker_mastodon_url: ""
 
 # speaker_6: &speaker
 #   speaker_in_speaker_lists: true
@@ -150,6 +160,7 @@ speakers:
   speaker_6: *michelelandolfo
   speaker_7: *stefanominoia
   speaker_9: *emilianopisu
+  speaker_10: *valeriasalis
   speaker_8: *davidedipumpo
 
 
@@ -289,3 +300,15 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *emilianopisu
+
+      stranger-grids-quando-accessibilita-e-sostenibilita-cambiano-il-CSS:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Stranger Grids: quando accessibilità e sostenibilità cambiano il CSS"
+        talk_description: "L’accessibilità non è solo una questione di conformità alle WCAG, ma un approccio che migliora l’esperienza utente, le performance e persino l’impatto ambientale di un prodotto digitale. Un’interfaccia accessibile utilizza tendenzialmente meno risorse, riduce il codice superfluo e migliora l’efficienza complessiva del prodotto finale.
+        In questo talk esploreremo il forte legame tra accessibilità e sostenibilità e vedremo come un cambio di prospettiva per dev, designer e chiunque lavori all’interfaccia, insieme a piccoli accorgimenti nel nostro CSS - dalla scelta del contrasto colore all’uso efficiente delle proprietà - possano fare la differenza."
+        talk_video_url:
+        speakers:
+          speaker_1: *valeriasalis
