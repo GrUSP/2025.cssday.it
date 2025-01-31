@@ -130,7 +130,7 @@ speaker_10: &valeriasalis
   speaker_in_speaker_lists: true
   speaker_name: Valeria Salis
   speaker_pic_filename: valeria-salis.png
-  speaker_role: "Software Developer"
+  speaker_role: "Full stack developer @ Jointly"
   speaker_bio: "Valeria è una Software Developer dal background ibrido e decisamente troppi interessi con un'unica costante: la tecnologia la accompagna da sempre. Backendista di nascita e frontendista d'adozione. Una particolare sensibilità la porta ad appassionarsi a tematiche come l'accessibilità e la sostenibilità ambientale del mondo tech."
   speaker_github_url: "https://github.com/vallss"
   speaker_twitter_url: ""
