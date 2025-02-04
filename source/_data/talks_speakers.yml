@@ -126,6 +126,18 @@ Dal 2019 appassionato e sensibilizzato sulla tematica principale del cssday 2025
   speaker_linkedin_url: "https://linkedin.com/in/pixu1980"
   speaker_mastodon_url: ""
 
+speaker_11: &marcopollacci
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Pollacci
+  speaker_pic_filename: marco-pollacci.png
+  speaker_role: "Software Architect @ GELLIFY"
+  speaker_bio: "Javascript and Css Lover, GDG Organizer"
+  speaker_github_url: "https://github.com/marcopollacci"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/marcopollacci/"
+  speaker_mastodon_url: ""
+
 speaker_10: &valeriasalis
   speaker_in_speaker_lists: true
   speaker_name: Valeria Salis
@@ -138,21 +150,24 @@ speaker_10: &valeriasalis
   speaker_linkedin_url: "https://linkedin.com/in//valeria-salis"
   speaker_mastodon_url: ""
 
-# speaker_6: &speaker
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role: ""
-#   speaker_bio: ""
-#   speaker_github_url: ""
-#   speaker_twitter_url: ""
-#   speaker_instagram_url: ""
-#   speaker_linkedin_url: ""
-#   speaker_mastodon_url: ""
-#   is_mc: false
+speaker_12: &lauraballini
+  speaker_in_speaker_lists: true
+  speaker_name: Laura Ballini
+  speaker_pic_filename: laura-ballini.png
+  speaker_role: "Accessibility expert @ Accessiway"
+  speaker_bio: "Appassionata di programmazione di siti web, ho intrapreso un percorso di studi fino a diventare un Accessibility Expert.
+Unisco la passione per il codice alle consulenze per le grandi aziende: spazio dalla semantica, alla realizzazionie di componenti accessibili che siano compatibili con le tecnologie assistive.
+Ho la responsabilità dell’onboarding dei nuovi aspiranti esperti che entrano in azienda, dalla loro formazione pratica fino alla verifica della qualità delle loro analisi."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
+  is_mc: false
 
 speakers:
   speaker_1: *massimoartizzu
+  speaker_12: *lauraballini
   speaker_2: *dianabernabei
   speaker_3: *claudiocaciagli
   speaker_4: *enricogiacomazzi
@@ -160,6 +175,7 @@ speakers:
   speaker_6: *michelelandolfo
   speaker_7: *stefanominoia
   speaker_9: *emilianopisu
+  speaker_11: *marcopollacci
   speaker_10: *valeriasalis
   speaker_8: *davidedipumpo
 
@@ -242,6 +258,17 @@ days:
         speakers:
           speaker_1: *massimoartizzu
 
+      CSS-accessibile-nella-vita-quotidiana:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "<i>[Lightning talk]</i> CSS accessibile nella vita quotidiana"
+        talk_description: "Quali sono i casi  che il CSS deve o può risolvere? Quando  il CSS  può compromettere l’accessibilità? Consigli semplici, ostacoli imprevisti, alternative possibili. L'accessibilità nella vita di tutti i giorni, è possibile e non compromette il design."
+        talk_video_url:
+        speakers:
+          speaker_1: *lauraballini
+
       come-animare-accessibilita:
         item_type: "talk"
         track: *track_1
@@ -300,6 +327,17 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *emilianopisu
+
+      progettare-per-l'inclusione-culturale:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "<i>[Lightning talk]</i> Progettare per l'inclusione culturale. CSS ed accessibilità come strumenti chiave"
+        talk_description: "Quando si parla di accessibilità, spesso ci si concentra su aspetti legati alla disabilità, ma l'inclusione va oltre. Il web è uno spazio globale, attraversato da culture, lingue e tradizioni diverse. Come possiamo progettare interfacce che rispettino questa varietà e offrano un'esperienza equa per tutti? In questo talk esploreremo come il CSS, combinato con le best practice di accessibilità, possa diventare uno strumento chiave per l’inclusione culturale."
+        talk_video_url:
+        speakers:
+          speaker_1: *marcopollacci
 
       stranger-grids-quando-accessibilita-e-sostenibilita-cambiano-il-CSS:
         item_type: "talk"
