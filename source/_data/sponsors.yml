@@ -30,6 +30,10 @@ silver:
     site_url: "https://www.workwave.com/"
 bronze:
   sponsor1:
+    name: "gellify"
+    logo_filename: "gellify.svg"
+    site_url: "https://gellify.com/italy/home/"
+  sponsor2:
     name: "postpickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
