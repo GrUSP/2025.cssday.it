@@ -30,10 +30,14 @@ silver:
     site_url: "https://www.workwave.com/"
 bronze:
   sponsor1:
+    name: "AltaSartoria"
+    logo_filename: "alta-sartoria.svg"
+    site_url: "https://altasartoria.com/"
+  sponsor2:
     name: "gellify"
     logo_filename: "gellify.svg"
     site_url: "https://gellify.com/italy/home/"
-  sponsor2:
+  sponsor3:
     name: "postpickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
