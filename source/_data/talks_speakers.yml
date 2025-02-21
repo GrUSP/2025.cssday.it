@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -201,34 +201,49 @@ tracks:
 
 days:
   day_1:
-    date: 2021-03-11T09:15+01:00
+    date: 2025-03-28T09:00+01:00
     title: "Day 1"
     talks:
-      talk_1:
+      checkin:
         item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T09:15+01:00
-        end_datetime: 2020-03-11T09:30+01:00
-        talk_title: "Welcome!"
-      talk_2:
+        start_datetime: 2025-03-28T09:00+01:00
+        end_datetime: 2025-03-28T09:30+01:00
+        talk_title: "⭐️ Check-in: prendi il tuo badge!"
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
+        start_datetime: 2025-03-28T09:30+01:00
+        end_datetime: 2025-03-28T09:45+01:00
+        talk_title: "👋 Intro by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2025-03-28T11:20+01:00
+        end_datetime: 2025-03-28T11:50+01:00
+        talk_title: "☕️ Pausa Caffé"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2025-03-28T13:00+01:00
+        end_datetime: 2025-03-28T14:25+01:00
+        talk_title: "🍴 Pausa pranzo"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2025-03-28T16:10+01:00
+        end_datetime: 2025-03-28T16:40+01:00
+        talk_title: "☕️ Pausa Caffé"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2025-03-28T17:50+01:00
+        end_datetime: 2025-03-28T18:00+01:00
+        talk_title: "👋 Saluti da GrUSP"
 
       # talk
       ritorno-al-futuro:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2025-03-28T09:45+01:00
+        end_datetime: 2025-03-28T10:15+01:00
         talk_title: "LA GRANDE OPPORTUNITÀ - parte 1: ritorno al futuro"
         talk_description: "Il Web è nato come spazio universale, accessibile e resiliente, grazie a tecnologie come HTML e HTTP che hanno rivoluzionato il modo in cui organizziamo, pubblichiamo e interagiamo con l'informazione. Oggi, con la spinta dello European Accessibility Act (EAA), l’accessibilità non è più un'opzione: è il requisito fondamentale per costruire siti e app migliori.  Ma attenzione: non si tratta solo di rispettare delle scarne linee guida (le WCAG sono al contrario un compendio poderoso di tre decenni di buone pratiche) ed è l’occasione per ripensare il design, integrando HTML semantico, CSS, WAI-ARIA, UX consapevole e SEO in un’esperienza inclusiva e ad alte prestazioni. La grande bellezza del web design risiede qui: progettare per il futuro, per tutte le persone, trasformando obblighi in opportunità."
         talk_video_url:
@@ -238,42 +253,42 @@ days:
       obbligo-o-collaborazione:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2025-03-28T10:15+01:00
+        end_datetime: 2025-03-28T10:45+01:00
         talk_title: "LA GRANDE OPPORTUNITÀ - parte 2: obbligo o collaborazione?"
         talk_description: "Il quadro normativo attuale sull’accessibilità digitale ci obbliga a ripensare radicalmente il modo in cui progettiamo e sviluppiamo. L'accessibilità anziché semplice vincolo tecnico può diventare un potente motore di cambiamento: un catalizzatore per migliorare la comunicazione tra team e ottimizzare i processi di sviluppo. Attraverso questa lente, scopriremo come l'accessibilità stia plasmando il futuro del web non solo come framework tecnico, ma come visione rivoluzionaria che eleva la qualità dei prodotti digitali verso un obiettivo comune: un web veramente per chiunque."
         talk_video_url:
         speakers:
           speaker_1: *dianabernabei
 
-      i-nostri-mezzi-sono-accessibili:
+      stranger-grids-quando-accessibilita-e-sostenibilita-cambiano-il-CSS:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "I nostri mezzi sono accessibili?"
-        talk_description: "Da web developer siamo sempre davanti ad uno schermo. Abbiamo pressoché sempre lavorato per uno schermo. Uno schermo grande e largo. Poi sono arrivati i cellulari, e gli schermi sono diventati piccoli. Ma ci siamo adattati. I nostri stili sono tornati accessibili. Quindi siamo a posto?
-        Forse no. Ci possono essere tanti altri tipi di 'media' che stiamo sottovalutando, e che potrebbero fruire dei nostri contenuti. Ma non possono. E quello che abbiamo fatto per uno schermo potrebbe essere non solo poco utile, ma persino deleterio per un altro mezzo. A cosa dovremmo quindi prestare attenzione per avere pagine davvero accessibili su ogni piattaforma?"
+        start_datetime: 2025-03-28T10:45+01:00
+        end_datetime: 2025-03-28T11:20+01:00
+        talk_title: "Stranger Grids: quando accessibilità e sostenibilità cambiano il CSS"
+        talk_description: "L’accessibilità non è solo una questione di conformità alle WCAG, ma un approccio che migliora l’esperienza utente, le performance e persino l’impatto ambientale di un prodotto digitale. Un’interfaccia accessibile utilizza tendenzialmente meno risorse, riduce il codice superfluo e migliora l’efficienza complessiva del prodotto finale.
+        In questo talk esploreremo il forte legame tra accessibilità e sostenibilità e vedremo come un cambio di prospettiva per dev, designer e chiunque lavori all’interfaccia, insieme a piccoli accorgimenti nel nostro CSS - dalla scelta del contrasto colore all’uso efficiente delle proprietà - possano fare la differenza."
         talk_video_url:
         speakers:
-          speaker_1: *massimoartizzu
+          speaker_1: *valeriasalis
 
-      CSS-accessibile-nella-vita-quotidiana:
+      il-mondo-non-e-bianco-e-nero-ma-RGB:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "<i>[Lightning talk]</i> CSS accessibile nella vita quotidiana"
-        talk_description: "Quali sono i casi  che il CSS deve o può risolvere? Quando  il CSS  può compromettere l’accessibilità? Consigli semplici, ostacoli imprevisti, alternative possibili. L'accessibilità nella vita di tutti i giorni, è possibile e non compromette il design."
+        start_datetime: 2025-03-28T11:50+01:00
+        end_datetime: 2025-03-28T12:25+01:00
+        talk_title: "Il Mondo non è bianco e nero, ma RGB"
+        talk_description: "Abbiamo l'abitudine di trattare i colori nei nostri siti e applicativi, ma perchè li definiamo tramite una terna di valori rosso-verde-blu? Cosa sono HSL e HSV? Perchè dovremmo usarli? E tutto questo come influenza l'accessibilità di un sito web ad esempio? In questo talk cercherò di dare una definizione (più o meno) formale alla teoria del colore ed alla sua applicazione per rendere al meglio la fruibilità dei nostri siti/app."
         talk_video_url:
         speakers:
-          speaker_1: *lauraballini
+          speaker_1: *enricogiacomazzi
 
       come-animare-accessibilita:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2025-03-28T12:25+01:00
+        end_datetime: 2025-03-28T13:00+01:00
         talk_title: "Come animare l’accessibilità"
         talk_description: "Ma davvero i siti con animazioni non possono essere accessibili? Se Flash fosse stato accessibile, sarebbe ancora tra noi? Le animazioni per il web sono un lusso o una necessità?
         Nel talk proveremo a rispondere a queste annose domande per scoprire se è possibile animare l'accessibilità."
@@ -281,33 +296,33 @@ days:
         speakers:
           speaker_1: *claudiocaciagli
 
-      il-mondo-non-e-bianco-e-nero-ma-RGB:
+      CSS-accessibile-nella-vita-quotidiana:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Il Mondo non è bianco e nero, ma RGB"
-        talk_description: "Abbiamo l'abitudine di trattare i colori nei nostri siti e applicativi, ma perchè li definiamo tramite una terna di valori rosso-verde-blu? Cosa sono HSL e HSV? Perchè dovremmo usarli? E tutto questo come influenza l'accessibilità di un sito web ad esempio? In questo talk cercherò di dare una definizione (più o meno) formale alla teoria del colore ed alla sua applicazione per rendere al meglio la fruibilità dei nostri siti/app."
+        start_datetime: 2025-03-28T14:25+01:00
+        end_datetime: 2025-03-28T14:45+01:00
+        talk_title: "<i>[Lightning talk]</i> CSS accessibile nella vita quotidiana"
+        talk_description: "Quali sono i casi  che il CSS deve o può risolvere? Quando  il CSS  può compromettere l’accessibilità? Consigli semplici, ostacoli imprevisti, alternative possibili. L'accessibilità nella vita di tutti i giorni, è possibile e non compromette il design."
         talk_video_url:
         speakers:
-          speaker_1: *enricogiacomazzi
+          speaker_1: *lauraballini
 
-      le-tecnologie-assistive-come-strumento-per-le-verifiche-di-accessibilita:
+      progettare-per-l'inclusione-culturale:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Le tecnologie assistive come strumento per le verifiche di accessibilità"
-        talk_description: "In un mondo sempre più digitale, l'accessibilità non è solo un obbligo normativo,  ma una responsabilità etica e un’opportunità strategica per creare esperienze più inclusive. Questo speech esplora l'importanza di verificare l'accessibilità di prodotti e interfacce utilizzando tecnologie assistive, con un focus particolare sui lettori di schermo. Attraverso casi pratici e best practice, analizzeremo come testare e ottimizzare la fruibilità dei contenuti per le persone con disabilità, evidenziando i vantaggi di progettare in modo inclusivo fin dalle prime fasi di sviluppo. Scopriremo come l'integrazione di strumenti di verifica dell'accessibilità possa migliorare non solo l’esperienza utente ma anche il valore e l’impatto del prodotto nel mercato globale. Includere è innovare."
+        start_datetime: 2025-03-28T14:45+01:00
+        end_datetime: 2025-03-28T15:00+01:00
+        talk_title: "<i>[Lightning talk]</i> Progettare per l'inclusione culturale. CSS ed accessibilità come strumenti chiave"
+        talk_description: "Quando si parla di accessibilità, spesso ci si concentra su aspetti legati alla disabilità, ma l'inclusione va oltre. Il web è uno spazio globale, attraversato da culture, lingue e tradizioni diverse. Come possiamo progettare interfacce che rispettino questa varietà e offrano un'esperienza equa per tutti? In questo talk esploreremo come il CSS, combinato con le best practice di accessibilità, possa diventare uno strumento chiave per l’inclusione culturale."
         talk_video_url:
         speakers:
-          speaker_1: *michelelandolfo
+          speaker_1: *marcopollacci
 
       tra-accessibilità-e-stile-semantica-e-architettura-CSS:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2025-03-28T15:00+01:00
+        end_datetime: 2025-03-28T15:35+01:00
         talk_title: "Tra accessibilità e stile: semantica e architettura CSS"
         talk_description: "Ogni dev si è trovato/a, almeno una volta, a lottare con file CSS difficili da leggere e mantenere. È una sfida che può emergere in qualsiasi progetto, indipendentemente dalla sua scala o dallo stack utilizzato, e spesso si ritiene che sia una conseguenza inevitabile della cascata.
         Ma è davvero così? Come possiamo evitare di 'annegare' nel nostro codice?
@@ -317,36 +332,38 @@ days:
         speakers:
           speaker_1: *stefanominoia
 
+      le-tecnologie-assistive-come-strumento-per-le-verifiche-di-accessibilita:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-03-28T15:35+01:00
+        end_datetime: 2025-03-28T16:10+01:00
+        talk_title: "Le tecnologie assistive come strumento per le verifiche di accessibilità"
+        talk_description: "In un mondo sempre più digitale, l'accessibilità non è solo un obbligo normativo,  ma una responsabilità etica e un’opportunità strategica per creare esperienze più inclusive. Questo speech esplora l'importanza di verificare l'accessibilità di prodotti e interfacce utilizzando tecnologie assistive, con un focus particolare sui lettori di schermo. Attraverso casi pratici e best practice, analizzeremo come testare e ottimizzare la fruibilità dei contenuti per le persone con disabilità, evidenziando i vantaggi di progettare in modo inclusivo fin dalle prime fasi di sviluppo. Scopriremo come l'integrazione di strumenti di verifica dell'accessibilità possa migliorare non solo l’esperienza utente ma anche il valore e l’impatto del prodotto nel mercato globale. Includere è innovare."
+        talk_video_url:
+        speakers:
+          speaker_1: *michelelandolfo
+
       costruire-un-Design-System-Accessibile:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2025-03-28T16:40+01:00
+        end_datetime: 2025-03-28T17:15+01:00
         talk_title: "Costruire un Design System Accessibile con l'approccio CSS APIs"
         talk_description: "Un design system è fondamentale per garantire coerenza, scalabilità e accessibilità nei prodotti digitali. Ma come si costruisce uno da zero, assicurando flessibilità e manutenibilità? CSS Custom Properties e CSS Layers offrono una combinazione potente per definire una base strutturata e gestibile, esponendo CSS API chiare per override esterni. In questo talk esploreremo, grazie ad un'implementazione di esempio, come ottenere il massimo da un design system e il suo ruolo nella creazione di un'identità visiva. Parleremo di fondamenti come token di design, principi di atomic design e accessibilità, includendo tipografia, spaziature, palette colori, motion guidelines e strategie per dark mode, e accent themes. Inoltre parleremo di test per garantire l'integriità del design, come visual regression testing e pixel diffing."
         talk_video_url:
         speakers:
           speaker_1: *emilianopisu
 
-      progettare-per-l'inclusione-culturale:
+      i-nostri-mezzi-sono-accessibili:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "<i>[Lightning talk]</i> Progettare per l'inclusione culturale. CSS ed accessibilità come strumenti chiave"
-        talk_description: "Quando si parla di accessibilità, spesso ci si concentra su aspetti legati alla disabilità, ma l'inclusione va oltre. Il web è uno spazio globale, attraversato da culture, lingue e tradizioni diverse. Come possiamo progettare interfacce che rispettino questa varietà e offrano un'esperienza equa per tutti? In questo talk esploreremo come il CSS, combinato con le best practice di accessibilità, possa diventare uno strumento chiave per l’inclusione culturale."
+        start_datetime: 2025-03-28T17:15+01:00
+        end_datetime: 2025-03-28T17:50+01:00
+        talk_title: "I nostri mezzi sono accessibili?"
+        talk_description: "Da web developer siamo sempre davanti ad uno schermo. Abbiamo pressoché sempre lavorato per uno schermo. Uno schermo grande e largo. Poi sono arrivati i cellulari, e gli schermi sono diventati piccoli. Ma ci siamo adattati. I nostri stili sono tornati accessibili. Quindi siamo a posto?
+        Forse no. Ci possono essere tanti altri tipi di 'media' che stiamo sottovalutando, e che potrebbero fruire dei nostri contenuti. Ma non possono. E quello che abbiamo fatto per uno schermo potrebbe essere non solo poco utile, ma persino deleterio per un altro mezzo. A cosa dovremmo quindi prestare attenzione per avere pagine davvero accessibili su ogni piattaforma?"
         talk_video_url:
         speakers:
-          speaker_1: *marcopollacci
+          speaker_1: *massimoartizzu
 
-      stranger-grids-quando-accessibilita-e-sostenibilita-cambiano-il-CSS:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Stranger Grids: quando accessibilità e sostenibilità cambiano il CSS"
-        talk_description: "L’accessibilità non è solo una questione di conformità alle WCAG, ma un approccio che migliora l’esperienza utente, le performance e persino l’impatto ambientale di un prodotto digitale. Un’interfaccia accessibile utilizza tendenzialmente meno risorse, riduce il codice superfluo e migliora l’efficienza complessiva del prodotto finale.
-        In questo talk esploreremo il forte legame tra accessibilità e sostenibilità e vedremo come un cambio di prospettiva per dev, designer e chiunque lavori all’interfaccia, insieme a piccoli accorgimenti nel nostro CSS - dalla scelta del contrasto colore all’uso efficiente delle proprietà - possano fare la differenza."
-        talk_video_url:
-        speakers:
-          speaker_1: *valeriasalis
+
