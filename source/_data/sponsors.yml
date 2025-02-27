@@ -20,6 +20,10 @@ gold:
     logo_filename: "accessiway.svg"
     site_url: "https://www.accessiway.com"
   sponsor2:
+    name: "Amplifon"
+    logo_filename: "amplifon.svg"
+    site_url: "https://www.amplifon.com/"
+  sponsor3:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
